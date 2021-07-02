@@ -1,10 +1,10 @@
 # Quick scale
 
-Simple plugin to proportinally scale any selected elements by a set amount. No popup – just choose your scaling factor and voilà. 
+Simple plugin to proportionally scale any selected elements by a set amount. No popup – just choose your scaling factor and voilà. 
 
 Assigning keyboard shortcuts is on you but the individual menu commands make that easy as pie. If you’ve not done this before Apple have [instructions for setting shortcuts on a mac](https://support.apple.com/en-nz/guide/mac-help/mchlp2271/mac).
 
-Why such a basic plugin? Right now Figma pastes retina images at their full pixel dimensions. If, like me, you find yourself scaling these by 50% a lot, a keyboard shortcut is a rather handy thing. Ideally the plugin would be called "Paste and scale" but triggering a system paste in a Figma plugin seems tricky or a no-go – contributions welcome!
+Why such a basic plugin? Right now Figma pastes retina images at their full pixel dimensions. If (like me) you find yourself scaling these by 50% an awful lot, a keyboard shortcut is a rather handy thing. Ideally the plugin would be called "Paste and scale" but triggering a system paste in a Figma plugin seems tricky or a no-go – contributions welcome!
 
 
 
