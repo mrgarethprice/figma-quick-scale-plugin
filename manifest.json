@@ -1,29 +1,60 @@
 {
   "name": "Quick scale",
   "menu": [
-       {"name": "10%", "command": "ten"},
-       {"name": "20%", "command": "twenty"},
-       {"name": "30%", "command": "thirty"},
-       {"name": "40%", "command": "fourty"},
-       {"name": "50%", "command": "fifty"},
-       {"name": "60%", "command": "sixty"},
-       {"name": "70%", "command": "seventy"},
-       {"name": "80%", "command": "eighty"},
-       {"name": "90%", "command": "ninety"},
-       {"separator": true},
-       {"name": "150%", "command": "oneFifty"},
-       {"name": "200%", "command": "twoHundred"},
-       {"name": "300%", "command": "threeHundred"},
-       {"separator": true},
-       {"name": "Down 1%", "command": "downOne"},
-       {"name": "Down 10%", "command": "downTen"},
-       {"name": "Up 1%", "command": "upOne"},
-       {"name": "Up 10%", "command": "upTen"},
-       {"separator": true},
-       {"name": "Int. paper down", "command": "paperDown"},
-       {"name": "Int. paper up", "command": "paperUp"}
+    { "name": "10%", "command": "ten" },
+    { "name": "20%", "command": "twenty" },
+    { "name": "30%", "command": "thirty" },
+    { "name": "40%", "command": "fourty" },
+    { "name": "50%", "command": "fifty" },
+    { "name": "60%", "command": "sixty" },
+    { "name": "70%", "command": "seventy" },
+    { "name": "80%", "command": "eighty" },
+    { "name": "90%", "command": "ninety" },
+    { "separator": true },
+    { "name": "150%", "command": "oneFifty" },
+    { "name": "200%", "command": "twoHundred" },
+    { "name": "300%", "command": "threeHundred" },
+    { "separator": true },
+    {
+      "name": "Nudges",
+      "menu": [
+        { "name": "Down 1%", "command": "downOne" },
+        { "name": "Up 1%", "command": "upOne" },
+        { "name": "Down 10%", "command": "downTen" },
+        { "name": "Up 10%", "command": "upTen" }
+      ]
+    },
+    { "separator": true },
+    {
+      "name": "Paper Sizes",
+      "menu": [
+        { "name": "Scale Down", "command": "paperDown" },
+        { "name": "Scale Up", "command": "paperUp" }
+      ]
+    },
+    { "separator": true },
+    {
+      "name": "Phone Widths",
+      "menu": [
+        { "name": "Android Compact (412px)", "command": "width412" },
+        { "name": "Android Medium (700px)", "command": "width700" },
+        { "separator": true },
+        { "name": "iPhone 16 (393px)", "command": "width393" },
+        { "name": "iPhone 16 Pro (402px)", "command": "width402" },
+        { "name": "iPhone 16 Pro Max (440px)", "command": "width440" },
+        { "name": "iPhone 16 Plus (430px)", "command": "width430" },
+        { "separator": true },
+        { "name": "iPhone 14 & 15 Pro Max (430px)", "command": "width430_14" },
+        { "name": "iPhone 14 & 15 Pro (393px)", "command": "width393_14" },
+        { "name": "iPhone 13 & 14 (390px)", "command": "width390" },
+        { "name": "iPhone 14 Plus (428px)", "command": "width428" },
+        { "name": "iPhone 13 mini (375px)", "command": "width375" },
+        { "name": "iPhone SE (320px)", "command": "width320" }
+      ]
+    }
   ],
   "id": "987648439069836583",
   "api": "1.0.0",
-  "main": "code.js"
+  "main": "code.js",
+  "editorType": ["figma"]
 }
